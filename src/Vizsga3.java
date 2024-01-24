@@ -12,6 +12,10 @@ public class  Vizsga3 {
         } catch (IOException ex) {
             System.out.println("Error");
         }
-        System.out.println(line);
+
+        for(String lines:line){
+            System.out.println(lines);
+        }
+
     }
 }
